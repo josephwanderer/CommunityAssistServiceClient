@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfGrantRequestInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GrantRequestInfo" nillable="true" type="tns:GrantRequestInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGrantRequestInfo" nillable="true" type="tns:ArrayOfGrantRequestInfo" />
+  <xs:complexType name="GrantRequestInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GrantAllocatedAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GrantRequestAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GrantRequestDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="GrantRequestExplanation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrantReviewDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrantStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GrantRequestInfo" nillable="true" type="tns:GrantRequestInfo" />
+</xs:schema>

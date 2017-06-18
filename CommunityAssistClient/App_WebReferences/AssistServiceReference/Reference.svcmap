@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a45fda4a-3dfa-481a-84fb-ad176c4b9ecc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50456/AssistServiceService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AssistServiceService.wsdl" MetadataType="Wsdl" ID="5b57f3c1-3a19-4dac-9d99-32b844ce0fae" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?wsdl" />
+    <MetadataFile FileName="AssistServiceService.disco" MetadataType="Disco" ID="e4d0bfd0-1dd5-46ed-b5e6-0309ee763f25" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?disco" />
+    <MetadataFile FileName="AssistServiceService3.xsd" MetadataType="Schema" ID="18e0c190-00da-4024-bc9b-e85848e2f87a" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AssistServiceService2.xsd" MetadataType="Schema" ID="689f76b0-161a-43bf-87e2-08491f8de2f6" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AssistServiceService1.xsd" MetadataType="Schema" ID="1b1d88a4-3431-4e99-97d5-fdc9c38fb60e" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AssistServiceService.xsd" MetadataType="Schema" ID="70d9beaa-0d3d-4a1a-a31b-58805eddb11b" SourceId="1" SourceUrl="http://localhost:50456/AssistServiceService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
